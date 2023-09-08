@@ -1,0 +1,72 @@
+/*
+
+Your styles go here!
+
+Hint! You'll probably want to start by styling:
+  * <body>
+  * <article>
+  * <h1>
+  * <img>
+
+I've left some boilerplate below for you.
+
+*/
+[class*="zocial-"]::before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+}
+
+body {
+  font-size: 16px;
+  max-width:50em;
+  margin:auto;
+  font-family: 'Crimson Text',serif;
+}
+
+figcaption {
+color: red;
+text-align: center;
+font-style: italic;
+}
+article {
+  margin: 2em;
+}
+
+h1 {
+margin-left: 2.2em;
+}
+
+h2 {
+margin-left: 1.6em;
+}
+
+
+p {
+  margin-left: 2.5em;
+  margin-right: 2.5em;
+}
+
+img {
+max-width: 100%;
+}
+
+/*margin auto nu merge, e solutia de pe stackoverflow*/
+#social {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#social a {
+  margin:1em;
+}
+
+#viewSource {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  padding: 1em;
+}
